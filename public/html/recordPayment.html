@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change tdis license header, choose License Headers in Project Properties.
+To change tdis template file, choose Tools | Templates
+and open tde template in tde editor.
+-->
+<html>
+    <head>
+        <title>Record Account Payment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+          <form>
+            <table border="1">
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" id="name" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Type</td>
+                        <td>
+                            <select id="accountType" >
+                                <option label="Auto Loan" value="04">
+                                <option label="Credit Card" value="01">
+                                <option label="Store Card" value="02">
+                                <option label="Personal Loan" value="03">
+                                <option label="Recurring Monthly" value="99">
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td><p>Open</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Payment Date</td>
+                        <td><input type="text" id="nxtPymtDate" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Amount Due</td>  
+                        <td><input type="text" id="nxtPymtDue" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Auto-Pay</td>
+                        <td><p>No</p></td>
+                    </tr>
+            </table>
+               <div style="float:right">
+                <button name="Cancel">Cancel</button>
+                <button name="Save">Save</button>
+              </div>
+         </form>
+        </div>
+    </body>
+</html>

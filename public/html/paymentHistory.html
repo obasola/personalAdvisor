@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change tdis license header, choose License Headers in Project Properties.
+To change tdis template file, choose Tools | Templates
+and open tde template in tde editor.
+-->
+<html>
+    <head>
+        <title>Account Payment History</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+          <table border="1">
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" id="name" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Type</td>
+                        <td>
+                            <select id="accountType" >
+                                <option label="Auto Loan" value="04">
+                                <option label="Credit Card" value="01">
+                                <option label="Store Card" value="02">
+                                <option label="Personal Loan" value="03">
+                                <option label="Recurring Monthly" value="99">
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Current Balance: </td>
+                        <td><p>$636.39</p>
+                    </tr>
+                    <tr>
+                        <td>Minimum Payment Due:</td>
+                        <td><p>$00.00</p>
+                    </tr>
+                    <tr>
+                        <td>Payment Due Date:</td>
+                        <td><p>Tuesday, July 18, 2017</p>
+                    </tr>
+                    <tr>
+                        <td>Last Statement Balance:</td>
+                        <td><p>$666.39</p>
+                    </tr>
+                    <tr>
+                        <td>Available Credit:</td>
+                        <td><p>$1,863.00</p>
+                    </tr>
+                    <tr>
+                        <td>Credit Limit:</td>
+                        <td><p>$2,500.00</p>
+                    </tr>
+     
+                    <tr>
+                        <td>Status</td>
+                        <td><input type="text" id="status" value=""/></td>
+                    </tr>
+
+          </table>
+            <table border="1">
+                   <thead>
+                    <tr>
+                        <th>Prev Balance Date</th>
+                        <th>Previous Balance</th>
+                        <th>Payment Date</th>
+                        <th>Amount Paid</th>
+                        <th>Auto-Pay</th>                       
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="prevBalanceDate" value=""/></td>
+                        <td><input type="text" id="prevBalance" value=""/></td>
+                        <td><input type="text" id="lastPymtDate" value=""/></td>
+                        <td><input type="text" id="lastPymtAmt" value=""/></td>
+                        <td><input type="text" id="autoPay" value=""/></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
