@@ -1,3 +1,12 @@
+/* 
+ *  /personalAdvisor
+ *      /app_api
+ *         /models
+ *            /UserModel.js
+ * 
+ * MODEL for User database access
+ */
+
 // grab the things we need
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;

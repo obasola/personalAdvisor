@@ -1,3 +1,12 @@
+ /*
+ * /personalAdvisor
+ *      /app_server
+ *         /routes
+ *            /users.js
+ *            
+ *   SERVER-SIDE Routes     
+ */
+
 var express = require('express');
 var router = express.Router();
 

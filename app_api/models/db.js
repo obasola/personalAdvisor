@@ -1,3 +1,12 @@
+/*
+ *  /personalAdvisor
+ *      /app_api
+ *         /models
+ *            /db.js
+ *
+ * MONGOOSE connections
+ */
+
 var mongoose = require('mongoose');
 
 var dbURI = 'mongodb://localhost/personaladvisor';
@@ -16,5 +25,5 @@ mongoose.connection.on('disconnected', function() {
     console.log('Mongoose disconnected from uri: '+dbURI);
 });
 
-require('./userModel');
-require('./accountModel');
+require('./User');
+require('./Account');

@@ -1,3 +1,11 @@
+/* 
+ * /personalAdvisor
+ *      /app_api
+ *         /models
+ *            /AccountModel.js
+ * 
+ * Model for database User access
+ */
 // grab the things we need
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
@@ -23,4 +31,3 @@ var accountSchema = new Schema({
 });
 
 mongoose.model('Account', accountSchema);
-
